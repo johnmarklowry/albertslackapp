@@ -1,7 +1,7 @@
 Albert Award Slack App
 =================
 
-The Albert Award Slack app is a Slack app dedicated to making it easier to recognize your peers for the remarkable effort they put in.
+The Albert Award Slack app is a Slack app developed to make it easy to submit a Google Form from Slack. In this case, it's dedicated to a specific form for submitting an Albert Award, where team members can recognize each other for remarkable effort.
 
 It's built on [Bolt](https://slack.dev/bolt)  – the Javascript-based framework for Slack apps.
 
