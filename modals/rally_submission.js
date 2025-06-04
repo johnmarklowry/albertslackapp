@@ -3,10 +3,10 @@ module.exports = () => {
         type: 'modal',
         title: {
             type: 'plain_text',
-            text: 'Submit an Albert Award'
+            text: 'Submit a Rally Award'
         },
         //View identifier
-        callback_id: 'albert_award_modal_view_1',
+        callback_id: 'rally_award_modal_view_1',
         submit: {
             type: 'plain_text',
             text: 'Submit'
@@ -14,34 +14,36 @@ module.exports = () => {
         blocks: [{
                 type: 'image',
                 block_id: 'image4',
-                image_url: 'https://lh6.googleusercontent.com/wlTBu06wn2B1ro-u9fWxk-zUNu4aIVNrzyJLsTHrF7uoyuLn0yevyGK2jGKpnOYHQjS3CqeTZ2Q87kTtaMssiWfBIE6xgUs4RDragSlIYtXbypKVL3p74BQAluZNlAL1wA=w3612',
-                alt_text: 'Albert award header image.'
+                image_url: 'https://i.imgur.com/Q8H87rY.jpg',
+                alt_text: 'Rally award header image.'
             },
+              
+                 
             {
-                block_id: 'albert_nominee',
+                block_id: 'rally_nominee',
                 type: 'input',
                 label: {
                     type: 'plain_text',
                     text: 'To'
                 },
                 element: {
-                    action_id: 'albert_nominee_action',
+                    action_id: 'rally_nominee_action',
                     type: 'plain_text_input'
                 },
                 hint: {
                     type: 'plain_text',
-                    text: 'Who are you sending the Albert Award to? First & last name!'
+                    text: 'Who are you sending a Rally Award to? First & last name!'
                 }
             },
             {
-                block_id: 'albert_nominator',
+                block_id: 'rally_nominator',
                 type: 'input',
                 label: {
                     type: 'plain_text',
                     text: 'From'
                 },
                 element: {
-                    action_id: 'albert_nominator_action',
+                    action_id: 'rally_nominator_action',
                     type: 'plain_text_input'
                 },
                 hint: {
@@ -50,7 +52,7 @@ module.exports = () => {
                 }
             },
             {
-                block_id: 'albert_message',
+                block_id: 'rally_message',
                 type: 'input',
                 label: {
                     type: 'plain_text',
@@ -58,7 +60,7 @@ module.exports = () => {
                 },
                 element: {
                     type: 'plain_text_input',
-                    action_id: 'albert_message_action',
+                    action_id: 'rally_message_action',
                     multiline: true,
                     max_length: 700
                 }
