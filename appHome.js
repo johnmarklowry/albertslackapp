@@ -15,15 +15,15 @@ const updateView = async (user) => {
     let blocks = [
       {
 			type: "image",
-			image_url: "https://lh6.googleusercontent.com/wlTBu06wn2B1ro-u9fWxk-zUNu4aIVNrzyJLsTHrF7uoyuLn0yevyGK2jGKpnOYHQjS3CqeTZ2Q87kTtaMssiWfBIE6xgUs4RDragSlIYtXbypKVL3p74BQAluZNlAL1wA=w3612",
-			alt_text: "Albert award header image.",
-			block_id: "albert_home_header_image"
+			image_url: "https://lh6.googleusercontent.com/XF2EkFaCS_NQLmSBY_MWSJPGqaNLXXZw5wbUvindjNq1RDtzXuOLuFmJFIV-MMsKtUTBiBf21Z-suUD6qS8g1QEvLqV9g8AGtGlYdmVkwfFddMegzBd5Mc9hJ0SJoAiqaA=w1064",
+			alt_text: "Rally award header image.",
+			block_id: "rally_home_header_image"
 		},
 		{
 			type: "header",
 			text: {
 				type: "plain_text",
-				text: ":tada:  Welcome to the Albert Award Slack app  :tada:",
+				text: ":tada:  Albert Awards are now Rally Awards, brought to you by Arena One!  :tada:",
 				emoji: true
 			}
 		},
@@ -31,7 +31,7 @@ const updateView = async (user) => {
 			type: "section",
 			text: {
 				type: "plain_text",
-				text: "This is your destination to submit virtual Albert Awards via Slack. You can use a simple slash command or this app home screen to submit an Albert Award for your coworkers who display remarkable effort. \n \n Your submissions will always stay private, even if you use the slash command in a private message with a coworker or a public channel. So, when something good happens in Slack, go ahead and take a second right then and there to send that person (or people!) an Albert Award.",
+				text: "This is your destination to submit virtual Rally Awards via Slack. You can use a simple slash command or this app home screen to submit a Rally Award for your coworkers who display remarkable effort. \n \n Your submissions will always stay private, even if you use the slash command in a private message with a coworker or a public channel. So, when something good happens in Slack, go ahead and take a second right then and there to send that person (or people!) a Rally Award.",
 				emoji: true
 			}
 		},

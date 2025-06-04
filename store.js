@@ -1,5 +1,3 @@
-
-
 let messages = {}
 let users = {}
 let me = undefined
